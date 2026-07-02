@@ -65,25 +65,24 @@
   --gold-soft: rgba(201, 162, 39, 0.15);
 }
 
-@layer base {
-  * {
-    border-color: var(--color-border);
-  }
-  body {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
-    font-family: var(--font-sans);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-feature-settings: "ss01", "ss02";
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  ::selection {
-    background: var(--gold);
-    color: #080808;
-  }
+html, body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  border-color: var(--border);
+}
+::selection {
+  background: var(--gold);
+  color: #080808;
 }
 
 /* ============ Grain + Ambient ============ */
