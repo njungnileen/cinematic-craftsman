@@ -14,23 +14,24 @@ import {
 } from "lucide-react";
 
 // Brand icons (this lucide version doesn't include them, so inline).
-function Github(props: React.SVGProps<SVGSVGElement>) {
+type IconProps = React.SVGProps<SVGSVGElement> & { size?: number };
+function Github({ size = 16, ...props }: IconProps) {
   return (
-    <svg viewBox="0 0 24 24" fill="currentColor" width={16} height={16} {...props}>
+    <svg viewBox="0 0 24 24" fill="currentColor" width={size} height={size} {...props}>
       <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 007.86 10.93c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 015.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.8 1.19 1.82 1.19 3.08 0 4.43-2.69 5.4-5.26 5.69.41.35.78 1.05.78 2.12v3.15c0 .31.21.67.8.55A11.5 11.5 0 0023.5 12C23.5 5.65 18.35.5 12 .5z" />
     </svg>
   );
 }
-function Linkedin(props: React.SVGProps<SVGSVGElement>) {
+function Linkedin({ size = 16, ...props }: IconProps) {
   return (
-    <svg viewBox="0 0 24 24" fill="currentColor" width={16} height={16} {...props}>
+    <svg viewBox="0 0 24 24" fill="currentColor" width={size} height={size} {...props}>
       <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8h4.51V23H.24V8zm7.5 0h4.33v2.05h.06c.6-1.13 2.07-2.32 4.26-2.32 4.56 0 5.4 3 5.4 6.9V23h-4.5v-6.68c0-1.59-.03-3.63-2.22-3.63-2.22 0-2.56 1.73-2.56 3.52V23h-4.5V8z" />
     </svg>
   );
 }
-function Instagram(props: React.SVGProps<SVGSVGElement>) {
+function Instagram({ size = 16, ...props }: IconProps) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width={16} height={16} {...props}>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width={size} height={size} {...props}>
       <rect x="2" y="2" width="20" height="20" rx="5" />
       <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
       <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
