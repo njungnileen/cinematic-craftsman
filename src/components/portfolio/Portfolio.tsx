@@ -368,10 +368,9 @@ const services = [
   { icon: Cpu, title: "AI Development", body: "Applied ML, agents, and internal tools." },
   { icon: Wand2, title: "Automation", body: "Pipelines that quietly do the boring parts." },
   { icon: Film, title: "Video Editing", body: "Narrative structure and color-graded finish." },
-  { icon: Sparkles, title: "Photography", body: "Type in motion, brand systems, titles." },
-  { icon: Camera, title: "Photography", body: "Portrait, editorial, product." },
+  { icon: Sparkles, title: "Photography", body: "Visual composition, portrait, editorial." },
+  { icon: Camera, title: "Video Editor", body: "Editorial cuts, color, and final delivery." },
   { icon: Palette, title: "Creative Direction", body: "Concept, art direction, execution." },
-  { icon: Film, title: "Video Editor", body: "Editorial cuts, color, and final delivery." },
 ];
 
 function Services() {
