@@ -232,7 +232,7 @@ function About() {
 // ---------- Work ----------
 type Project = {
   title: string;
-  category: "AI" | "Video" | "Photography" | "Branding";
+  category: "AI" | "Video" | "Photography";
   year: string;
   image: string;
   span?: "wide" | "tall";
@@ -243,11 +243,10 @@ const projects: Project[] = [
   { title: "Signal Weaver", category: "AI", year: "2025", image: w2 },
   { title: "Antter Titles", category: "Photography", year: "2025", image: w3 },
   { title: "Neon Diaries", category: "Photography", year: "2025", image: w4 },
-  { title: "Maison Noir", category: "Branding", year: "2024", image: w5 },
   { title: "Above the Fog", category: "Video", year: "2024", image: w6, span: "wide" },
 ];
 
-const filters = ["All", "AI", "Video", "Photography", "Branding"] as const;
+const filters = ["All", "AI", "Video", "Photography"] as const;
 
 function Work() {
   const [active, setActive] = useState<(typeof filters)[number]>("All");
