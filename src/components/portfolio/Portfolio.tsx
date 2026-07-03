@@ -88,12 +88,13 @@ function Hero() {
             transition={{ ...fadeUp.transition, delay: 0.05 }}
             className="font-display font-bold leading-[0.95] tracking-tight text-white text-[44px] sm:text-[56px] md:text-[72px]"
           >
-            I'm Alex Rivera.
+            I'm Njung Nileen.
             <span className="block text-white/40 mt-3">
               AI Engineer.
             </span>
             <span className="block text-white/40">Filmmaker.</span>
-            <span className="block text-white/40">Motion Designer.</span>
+            <span className="block text-white/40">Photographer.</span>
+            <span className="block text-white/40">Video Editor.</span>
           </motion.h1>
           <motion.p
             {...fadeUp}
@@ -150,7 +151,7 @@ function Hero() {
           <div className="relative h-full w-full overflow-hidden rounded-[24px] border border-hairline">
             <img
               src={portrait}
-              alt="Portrait of Alex Rivera"
+              alt="Portrait of Njung Nileen"
               width={1024}
               height={1280}
               className="h-full w-full object-cover"
@@ -197,7 +198,7 @@ function About() {
               </p>
               <p>
                 My work spans automation, applied ML, visual storytelling,
-                photography, and motion design — always in service of a single
+                photography, and video editing — always in service of a single
                 idea rendered with care.
               </p>
             </div>
@@ -229,7 +230,7 @@ function About() {
 // ---------- Work ----------
 type Project = {
   title: string;
-  category: "AI" | "Video" | "Photography" | "Motion" | "Branding";
+  category: "AI" | "Video" | "Photography" | "Branding";
   year: string;
   image: string;
   span?: "wide" | "tall";
@@ -238,13 +239,13 @@ type Project = {
 const projects: Project[] = [
   { title: "Nightline", category: "Video", year: "2026", image: w1, span: "wide" },
   { title: "Signal Weaver", category: "AI", year: "2025", image: w2 },
-  { title: "Antter Titles", category: "Motion", year: "2025", image: w3 },
+  { title: "Antter Titles", category: "Photography", year: "2025", image: w3 },
   { title: "Neon Diaries", category: "Photography", year: "2025", image: w4 },
   { title: "Maison Noir", category: "Branding", year: "2024", image: w5 },
   { title: "Above the Fog", category: "Video", year: "2024", image: w6, span: "wide" },
 ];
 
-const filters = ["All", "AI", "Video", "Photography", "Motion", "Branding"] as const;
+const filters = ["All", "AI", "Video", "Photography", "Branding"] as const;
 
 function Work() {
   const [active, setActive] = useState<(typeof filters)[number]>("All");
@@ -367,8 +368,8 @@ const services = [
   { icon: Cpu, title: "AI Development", body: "Applied ML, agents, and internal tools." },
   { icon: Wand2, title: "Automation", body: "Pipelines that quietly do the boring parts." },
   { icon: Film, title: "Video Editing", body: "Narrative structure and color-graded finish." },
-  { icon: Sparkles, title: "Motion Graphics", body: "Type in motion, brand systems, titles." },
-  { icon: Camera, title: "Photography", body: "Portrait, editorial, product." },
+  { icon: Sparkles, title: "Photography", body: "Visual composition, portrait, editorial." },
+  { icon: Camera, title: "Video Editor", body: "Editorial cuts, color, and final delivery." },
   { icon: Palette, title: "Creative Direction", body: "Concept, art direction, execution." },
 ];
 
@@ -474,7 +475,7 @@ const experience = [
   },
   {
     company: "Freelance",
-    role: "Motion & Brand",
+    role: "Photo & Brand",
     years: "2020 — 2022",
     bullets: [
       "Title design for indie films and product launches.",
@@ -590,10 +591,10 @@ function Contact() {
             </p>
             <div className="mt-10 space-y-3">
               {[
-                { icon: Mail, label: "hello@alexrivera.studio", href: "mailto:hello@alexrivera.studio" },
-                { icon: Linkedin, label: "linkedin.com/in/alexrivera", href: "#" },
-                { icon: Github, label: "github.com/alexrivera", href: "#" },
-                { icon: Instagram, label: "@alex.rivera", href: "#" },
+                { icon: Mail, label: "hello@njungnileen.studio", href: "mailto:hello@njungnileen.studio" },
+                { icon: Linkedin, label: "linkedin.com/in/njungnileen", href: "#" },
+                { icon: Github, label: "github.com/njungnileen", href: "#" },
+                { icon: Instagram, label: "@njung.nileen", href: "#" },
               ].map((l) => {
                 const Icon = l.icon;
                 return (
@@ -674,9 +675,9 @@ function Footer() {
       <div className="mx-auto max-w-[1280px] px-6 md:px-10 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2 text-sm text-white/60">
           <span className="inline-flex h-7 w-7 items-center justify-center rounded-md border border-hairline text-gold font-bold text-xs">
-            AR
+            NN
           </span>
-          <span>© {new Date().getFullYear()} Alex Rivera. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Njung Nileen. All rights reserved.</span>
         </div>
         <div className="flex items-center gap-4 text-white/50">
           <a href="#" aria-label="Instagram" className="hover:text-white transition">

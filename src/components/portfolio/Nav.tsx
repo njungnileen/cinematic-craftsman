@@ -32,10 +32,10 @@ export function Nav() {
       <div className="mx-auto max-w-[1280px] px-6 md:px-10 h-16 md:h-20 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2 group">
           <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-hairline text-gold font-bold text-sm">
-            AR
+            NN
           </span>
           <span className="text-sm tracking-wide text-white/90 hidden sm:inline">
-            Alex Rivera
+            Njung Nileen
           </span>
         </a>
         <nav className="hidden md:flex items-center gap-8">
