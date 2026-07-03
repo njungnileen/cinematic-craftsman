@@ -172,7 +172,7 @@ function Hero() {
 
 // ---------- About ----------
 const timeline = [
-  { year: "2026", label: "Independent studio · Lisbon" },
+  { year: "2026", label: "Independent studio · Dubai" },
   { year: "2024", label: "Lead AI Engineer, Northline Labs" },
   { year: "2022", label: "Cinematographer, Fieldnote Films" },
   { year: "2020", label: "First short film · Cannes shortlist" },
