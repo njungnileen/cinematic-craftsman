@@ -475,7 +475,7 @@ const experience = [
   },
   {
     company: "Freelance",
-    role: "Motion & Brand",
+    role: "Photo & Brand",
     years: "2020 — 2022",
     bullets: [
       "Title design for indie films and product launches.",
