@@ -50,6 +50,7 @@ import w3 from "@/assets/work-3.jpg";
 import w4 from "@/assets/work-4.jpg";
 import w5 from "@/assets/work-5.jpg";
 import w6 from "@/assets/work-6.jpg";
+import cvAsset from "@/assets/cv-njung-nileen.pdf.asset.json";
 
 // ---------- shared motion ----------
 const fadeUp = {
