@@ -48,7 +48,7 @@ import w1 from "@/assets/work-1.jpg";
 import w2 from "@/assets/work-2.jpg";
 import w3 from "@/assets/work-3.jpg";
 import w4 from "@/assets/work-4.jpg";
-import w5 from "@/assets/work-5.jpg";
+
 import w6 from "@/assets/work-6.jpg";
 import cvAsset from "@/assets/cv-njung-nileen.pdf.asset.json";
 
@@ -134,7 +134,7 @@ function Hero() {
             transition={{ ...fadeUp.transition, delay: 0.4 }}
             className="mt-16 flex items-center gap-8 text-xs uppercase tracking-[0.2em] text-white/40"
           >
-            <span>Based in Lisbon</span>
+            <span>Based in Dubai</span>
             <span className="h-px w-6 bg-white/20" />
             <span>Available Q2 · 2026</span>
           </motion.div>
@@ -172,7 +172,7 @@ function Hero() {
 
 // ---------- About ----------
 const timeline = [
-  { year: "2026", label: "Independent studio · Lisbon" },
+  { year: "2026", label: "Independent studio · Dubai" },
   { year: "2024", label: "Lead AI Engineer, Northline Labs" },
   { year: "2022", label: "Cinematographer, Fieldnote Films" },
   { year: "2020", label: "First short film · Cannes shortlist" },
@@ -232,7 +232,7 @@ function About() {
 // ---------- Work ----------
 type Project = {
   title: string;
-  category: "AI" | "Video" | "Photography" | "Branding";
+  category: "AI" | "Video" | "Photography";
   year: string;
   image: string;
   span?: "wide" | "tall";
@@ -243,11 +243,10 @@ const projects: Project[] = [
   { title: "Signal Weaver", category: "AI", year: "2025", image: w2 },
   { title: "Antter Titles", category: "Photography", year: "2025", image: w3 },
   { title: "Neon Diaries", category: "Photography", year: "2025", image: w4 },
-  { title: "Maison Noir", category: "Branding", year: "2024", image: w5 },
   { title: "Above the Fog", category: "Video", year: "2024", image: w6, span: "wide" },
 ];
 
-const filters = ["All", "AI", "Video", "Photography", "Branding"] as const;
+const filters = ["All", "AI", "Video", "Photography"] as const;
 
 function Work() {
   const [active, setActive] = useState<(typeof filters)[number]>("All");
