@@ -591,10 +591,10 @@ function Contact() {
             </p>
             <div className="mt-10 space-y-3">
               {[
-                { icon: Mail, label: "hello@alexrivera.studio", href: "mailto:hello@alexrivera.studio" },
-                { icon: Linkedin, label: "linkedin.com/in/alexrivera", href: "#" },
-                { icon: Github, label: "github.com/alexrivera", href: "#" },
-                { icon: Instagram, label: "@alex.rivera", href: "#" },
+                { icon: Mail, label: "hello@njungnileen.studio", href: "mailto:hello@njungnileen.studio" },
+                { icon: Linkedin, label: "linkedin.com/in/njungnileen", href: "#" },
+                { icon: Github, label: "github.com/njungnileen", href: "#" },
+                { icon: Instagram, label: "@njung.nileen", href: "#" },
               ].map((l) => {
                 const Icon = l.icon;
                 return (
