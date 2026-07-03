@@ -151,7 +151,7 @@ function Hero() {
           <div className="relative h-full w-full overflow-hidden rounded-[24px] border border-hairline">
             <img
               src={portrait}
-              alt="Portrait of Alex Rivera"
+              alt="Portrait of Njung Nileen"
               width={1024}
               height={1280}
               className="h-full w-full object-cover"
