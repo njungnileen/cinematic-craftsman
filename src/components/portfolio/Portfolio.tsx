@@ -675,9 +675,9 @@ function Footer() {
       <div className="mx-auto max-w-[1280px] px-6 md:px-10 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2 text-sm text-white/60">
           <span className="inline-flex h-7 w-7 items-center justify-center rounded-md border border-hairline text-gold font-bold text-xs">
-            AR
+            NN
           </span>
-          <span>© {new Date().getFullYear()} Alex Rivera. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Njung Nileen. All rights reserved.</span>
         </div>
         <div className="flex items-center gap-4 text-white/50">
           <a href="#" aria-label="Instagram" className="hover:text-white transition">
