@@ -77,13 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Alex Rivera — AI Engineer & Cinematic Storyteller" },
+      { title: "Njung Nileen — AI Engineer & Cinematic Storyteller" },
       {
         name: "description",
         content:
-          "Portfolio of Alex Rivera — AI engineer, filmmaker and motion designer building intelligent products and cinematic visual experiences.",
+          "Portfolio of Njung Nileen — AI engineer, filmmaker and photographer building intelligent products and cinematic visual experiences.",
       },
-      { property: "og:title", content: "Alex Rivera — AI Engineer & Cinematic Storyteller" },
+      { property: "og:title", content: "Njung Nileen — AI Engineer & Cinematic Storyteller" },
       {
         property: "og:description",
         content: "Intelligent products. Cinematic visual experiences.",
