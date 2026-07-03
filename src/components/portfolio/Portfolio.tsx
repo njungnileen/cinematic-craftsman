@@ -50,6 +50,7 @@ import w3 from "@/assets/work-3.jpg";
 import w4 from "@/assets/work-4.jpg";
 import w5 from "@/assets/work-5.jpg";
 import w6 from "@/assets/work-6.jpg";
+import cvAsset from "@/assets/cv-njung-nileen.pdf.asset.json";
 
 // ---------- shared motion ----------
 const fadeUp = {
@@ -119,7 +120,8 @@ function Hero() {
               />
             </a>
             <a
-              href="#"
+              href={cvAsset.url}
+              download="Njung_Nileen_CV.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-hairline bg-white/5 px-6 py-3 text-sm text-white hover:bg-white/10 transition"
             >
               <Download size={16} />
