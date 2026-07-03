@@ -88,12 +88,13 @@ function Hero() {
             transition={{ ...fadeUp.transition, delay: 0.05 }}
             className="font-display font-bold leading-[0.95] tracking-tight text-white text-[44px] sm:text-[56px] md:text-[72px]"
           >
-            I'm Alex Rivera.
+            I'm Njung Nileen.
             <span className="block text-white/40 mt-3">
               AI Engineer.
             </span>
             <span className="block text-white/40">Filmmaker.</span>
-            <span className="block text-white/40">Motion Designer.</span>
+            <span className="block text-white/40">Photographer.</span>
+            <span className="block text-white/40">Video Editor.</span>
           </motion.h1>
           <motion.p
             {...fadeUp}
