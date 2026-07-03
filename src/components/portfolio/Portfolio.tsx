@@ -198,7 +198,7 @@ function About() {
               </p>
               <p>
                 My work spans automation, applied ML, visual storytelling,
-                photography, and motion design — always in service of a single
+                photography, and video editing — always in service of a single
                 idea rendered with care.
               </p>
             </div>
