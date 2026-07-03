@@ -134,7 +134,7 @@ function Hero() {
             transition={{ ...fadeUp.transition, delay: 0.4 }}
             className="mt-16 flex items-center gap-8 text-xs uppercase tracking-[0.2em] text-white/40"
           >
-            <span>Based in Lisbon</span>
+            <span>Based in Dubai</span>
             <span className="h-px w-6 bg-white/20" />
             <span>Available Q2 · 2026</span>
           </motion.div>
