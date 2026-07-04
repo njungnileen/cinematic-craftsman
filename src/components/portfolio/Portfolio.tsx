@@ -587,7 +587,7 @@ function Contact() {
               {[
                 { icon: Mail, label: "njungnileen29@gmail.com", href: "mailto:njungnileen29@gmail.com" },
                 { icon: Linkedin, label: "linkedin.com/in/njung-nileen-chiambah-a96256291", href: "https://www.linkedin.com/in/njung-nileen-chiambah-a96256291/" },
-                { icon: Instagram, label: "@njung.nileen", href: "#" },
+                { icon: Instagram, label: "instagram.com/24fps_frames", href: "https://www.instagram.com/24fps_frames/" },
               ].map((l) => {
                 const Icon = l.icon;
                 return (
@@ -673,7 +673,7 @@ function Footer() {
           <span>© {new Date().getFullYear()} Njung Nileen. All rights reserved.</span>
         </div>
         <div className="flex items-center gap-4 text-white/50">
-          <a href="#" aria-label="Instagram" className="hover:text-white transition">
+          <a href="https://www.instagram.com/24fps_frames/" aria-label="Instagram" className="hover:text-white transition">
             <Instagram size={16} />
           </a>
           <a href="https://www.linkedin.com/in/njung-nileen-chiambah-a96256291/" aria-label="LinkedIn" className="hover:text-white transition">
