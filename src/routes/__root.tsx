@@ -91,6 +91,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#080808" },
+      { name: "twitter:title", content: "Njung Nileen — AI Engineer & Cinematic Storyteller" },
+      { name: "description", content: "Portfolio of Njung Nileen — AI engineer, filmmaker and photographer building intelligent products and cinematic visual experiences." },
+      { property: "og:description", content: "Portfolio of Njung Nileen — AI engineer, filmmaker and photographer building intelligent products and cinematic visual experiences." },
+      { name: "twitter:description", content: "Portfolio of Njung Nileen — AI engineer, filmmaker and photographer building intelligent products and cinematic visual experiences." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/67c09726-4823-4440-b7b0-85898770706c/id-preview-ef832986--38f3569e-26bd-4743-84ac-fa378941134d.lovable.app-1783143440577.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/67c09726-4823-4440-b7b0-85898770706c/id-preview-ef832986--38f3569e-26bd-4743-84ac-fa378941134d.lovable.app-1783143440577.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
