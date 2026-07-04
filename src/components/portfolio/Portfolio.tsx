@@ -585,9 +585,8 @@ function Contact() {
             </p>
             <div className="mt-10 space-y-3">
               {[
-                { icon: Mail, label: "hello@njungnileen.studio", href: "mailto:hello@njungnileen.studio" },
-                { icon: Linkedin, label: "linkedin.com/in/njungnileen", href: "#" },
-                { icon: Github, label: "github.com/njungnileen", href: "#" },
+                { icon: Mail, label: "njungnileen29@gmail.com", href: "mailto:njungnileen29@gmail.com" },
+                { icon: Linkedin, label: "linkedin.com/in/njung-nileen-chiambah-a96256291", href: "https://www.linkedin.com/in/njung-nileen-chiambah-a96256291/" },
                 { icon: Instagram, label: "@njung.nileen", href: "#" },
               ].map((l) => {
                 const Icon = l.icon;
